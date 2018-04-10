@@ -11,3 +11,14 @@ spring:
      content-type: text/html
      mode: HTML5
 
+
+---
+spring:
+  profiles: default
+
+logging:
+ level:
+  root: INFO
+  org.springframework: WARN
+  org.mybatis: WARN
+  com.journey.thymeleaf: Debug

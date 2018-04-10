@@ -12,8 +12,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class ThymeleafController {
 
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
-    public String sayHello(Model model){
-        model.addAttribute("name","Thymeleaf");
+    public String sayHello(Model model) {
+        model.addAttribute("name", "Thymeleaf");
+
         return "index";
+
     }
 }
