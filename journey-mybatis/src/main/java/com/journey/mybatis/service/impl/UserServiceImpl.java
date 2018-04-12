@@ -6,6 +6,8 @@ import com.journey.mybatis.service.UserSerivce;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 /**
  * Created by chen on 2018/4/10.
  */
@@ -17,7 +19,7 @@ public class UserServiceImpl implements UserSerivce {
 
 
     @Override
-    public User getUser(int userId) {
-        return userDao.getUser(userId);
+    public List<User> getUser() {
+        return userDao.getUser();
     }
 }

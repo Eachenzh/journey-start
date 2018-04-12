@@ -10,8 +10,8 @@
         <result property="age" column="age"/>
         <result property="gender" column="gender"/>
     </resultMap>
-    <select id="getUser"  resultMap="UserResultMap">
-        SELECT * FROM journey_user WHERE id = #{id}
+    <select id="getUser" resultMap="UserResultMap">
+        SELECT * FROM journey_user
     </select>
 
 

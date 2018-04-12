@@ -23,7 +23,7 @@ mybatis:
 
 logging:
  level:
-  root: INFO
-  org.springframework: WARN
-  org.mybatis: WARN
-  com.journey.thymeleaf: Debug
+    root: INFO
+    org.springframework: WARN
+    org.mybatis: WARN
+    com.journey.thymeleaf: Debug
