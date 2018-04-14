@@ -19,6 +19,7 @@
     <modules>
         <module>journey-thymeleaf</module>
         <module>journey-mybatis</module>
+        <module>journey-jpa</module>
     </modules>
 
     <properties>

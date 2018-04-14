@@ -1,3 +1,5 @@
+package com.journey.mybatis;
+
 import lombok.extern.slf4j.Slf4j;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
@@ -9,7 +11,6 @@ import org.springframework.context.annotation.ComponentScan;
  */
 
 @Slf4j
-@ComponentScan("com.journey.mybatis")
 @MapperScan("com.journey.mybatis.dao")
 @SpringBootApplication
 public class MybatisApplication {
