@@ -32,7 +32,7 @@ public class UserController {
 
     @RequestMapping("/findByOne")
     public User getUser() {
-        User user = userRepository.findOne(1);
+        User user = userRepository.findOne(3);
 
         return user;
     }

@@ -24,7 +24,7 @@ public class UserServiceImpl implements UserService {
         String sayHello = null;
 
         for (User user : users) {
-            if (user.getName().equals("宝宝")) {
+            if (user.getName().equals("咖喱")) {
                 sayHello = user.getName() + "在向你打招呼哦";
             }
         }
