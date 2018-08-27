@@ -22,6 +22,7 @@
         <module>journey-jpa</module>
         <module>journey-shiro</module>
         <module>journey-spring</module>
+        <module>journey-SpringSecurity</module>
     </modules>
 
     <properties>
